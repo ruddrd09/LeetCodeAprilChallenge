@@ -9,7 +9,7 @@ public:
             m[i].push_back(x);
         }
         for(auto i: m) {
-            s.push_back(i.second);
+            s.push_back(i.second); 
         }
         return s;
     }
